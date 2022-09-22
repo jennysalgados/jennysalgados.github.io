@@ -1,0 +1,184 @@
+/* * { margin: 0; padding: 0; }
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+} */
+
+/*
+.box{
+
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.box-image img{
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    animation: anima;
+    animation-duration: 800ms;    
+}
+
+@keyframes anima{
+
+    from{transform: translate(-50px,00);}
+    to{transform: translate(0px,00);}
+}
+
+
+.bolinhas{
+
+    margin-left: 400px;
+}
+
+.bolinhas span{
+
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: red;
+}
+
+.bolinhas span.marcador{
+
+   background-color: blue;
+}
+*/
+
+/* BOTÃO WHATSAPP */
+@-webkit-keyframes pulseBtw {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, .3);
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+    }
+}
+
+@keyframes pulseBtw {
+    10% {
+        -moz-box-shadow: 0 0 0 0 #ee9ca7;
+        box-shadow: 0 0 0 0 #ee9ca7;
+    }
+
+    80% {
+        -moz-box-shadow: 0 0 0 10px rgba(238, 157, 235, 0);
+        box-shadow: 0 0 0 15px rgba(204, 169, 44, 0);
+    }
+
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, .3);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}
+
+.btn-whats {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 999999;
+    animation: pulseBtw 1s infinite;
+    background: #ee9ca7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+}
+
+.btn-whats i {
+    color: #fff;
+    border-radius: 50%;
+    display: table;
+    width: inherit;
+    height: inherit;
+    font-size: 35px;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, .24);
+}
+
+.btn-whats i::before {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media (max-width: 767px) {
+    .btn-whats {
+        width: 50px;
+        height: 50px;
+        bottom: 25px;
+        left: 10px;
+    }
+
+    .btn-whats i {
+        font-size: 25px;
+    }
+}
+
+
+
+
