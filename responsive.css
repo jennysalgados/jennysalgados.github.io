@@ -47,7 +47,7 @@
   }
 
   .sidebar {
-    width: 16rem;
+    width: 18rem;
     height: 95vh;
   }
 
@@ -55,6 +55,11 @@
     top: 50%;
     left: 50%;
   }
+    
+     .menu-item {
+        text-align: center;
+        margin-bottom: .9rem;
+    }
 
   .sessao-header {
     margin-top: 1.5rem;
