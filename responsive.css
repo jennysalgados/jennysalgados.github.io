@@ -141,6 +141,7 @@
   }
 
   .mapBox {
+        overflow: hidden;
         position: relative;
         width: 360px;
         height: 360px;
