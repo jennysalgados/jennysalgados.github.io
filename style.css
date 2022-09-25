@@ -8,11 +8,12 @@
   list-style: none;
   text-decoration: none;
 }
+
 a {
-    color: white;
-    font-weight:100;
-    text-decoration: none;
-    text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 
@@ -23,8 +24,7 @@ a {
 }
 
 html {
-    
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
 .hamburguer {
@@ -112,8 +112,8 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.8; 
-  animation:zoom 15s;
+  opacity: 0.8;
+  animation: zoom 15s;
 }
 
 @keyframes zoom {
@@ -215,7 +215,7 @@ header {
 
 .menu-link {
   font-family: var(--font-action);
-    font-weight: 350;
+  font-weight: 350;
   font-size: 2rem;
   color: #555;
   transition: color 1s;
@@ -407,7 +407,7 @@ header {
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
-  color:orangered;
+  color: orangered;
 }
 
 .card-info h2 {
@@ -456,7 +456,7 @@ header {
 .mapBox {
     margin: auto;
     position: relative;
-    width: auto;
+    width: 780px;
     height: 480px;
     background: #fff;
 }
@@ -518,77 +518,77 @@ footer {
 
 /* BOTÃO WHATSAPP */
 @-webkit-keyframes pulseBtw {
-    0% {
-        -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, .3);
-    }
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, .3);
+  }
 
-    70% {
-        -webkit-box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
-    }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+  }
 
-    100% {
-        -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
-    }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+  }
 }
 
 @keyframes pulseBtw {
-    10% {
-        -moz-box-shadow: 0 0 0 0#3C3B3F;
-        box-shadow: 0 0 0 0 #3C3B3F;
-    }
+  10% {
+    -moz-box-shadow: 0 0 0 0#3C3B3F;
+    box-shadow: 0 0 0 0 #3C3B3F;
+  }
 
-    80% {
-        -moz-box-shadow: 0 0 0 10px rgba(238, 157, 235, 0);
-        box-shadow: 0 0 0 15px rgba(204, 169, 44, 0);
-    }
+  80% {
+    -moz-box-shadow: 0 0 0 10px rgba(238, 157, 235, 0);
+    box-shadow: 0 0 0 15px rgba(204, 169, 44, 0);
+  }
 
-    100% {
-        -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, .3);
-        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
-    }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, .3);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
 }
 
 .btn-whats {
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
-    z-index: 999999;
-    animation: pulseBtw 1s infinite;
-   background: #3C3B3F;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: 999999;
+  animation: pulseBtw 1s infinite;
+  background: #3C3B3F;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #605C3C, #3C3B3F);
-    border-radius: 50%;
-    width: 65px;
-    height: 65px;
-    text-align: center;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  text-align: center;
 }
 
 .btn-whats i {
-    color: #fff;
-    border-radius: 50%;
-    display: table;
-    width: inherit;
-    height: inherit;
-    font-size: 35px;
-    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, .24);
+  color: #fff;
+  border-radius: 50%;
+  display: table;
+  width: inherit;
+  height: inherit;
+  font-size: 35px;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, .24);
 }
 
 .btn-whats i::before {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 @media (max-width: 767px) {
-    .btn-whats {
-        width: 50px;
-        height: 50px;
-        bottom: 25px;
-        left: 10px;
-    }
+  .btn-whats {
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    left: 10px;
+  }
 
-    .btn-whats i {
-        font-size: 25px;
-    }
+  .btn-whats i {
+    font-size: 25px;
+  }
 }
