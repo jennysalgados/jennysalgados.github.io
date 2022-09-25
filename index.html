@@ -5,10 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--
-     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
-    <link rel="stylesheet" href="preloader.css">
--->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -34,24 +30,7 @@
 
 
 <body>
-     <!-- início do preloader -->
-<!--
-    <div id="preloader">
-        <div class="inner">
-            HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! 
-           <div class="bolas">
-              <div></div>
-              <div></div>
-              <div></div>                    
-           </div>
-        </div>
-    </div>
--->
-    <!-- fim do preloader --> 
-
-
   <div class="container">
-
     <div class="hamburguer">
       <div class="line" id="line1"></div>
       <div class="line" id="line2"></div>
@@ -457,39 +436,6 @@
 
       </section>
 
-<!--
-      <section class="socialMedia">
-        <ul class="box">
-          <li data-text="Facebook" data-color="#1877f2">
-            <a href="#" class="facebook">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-          </li>
--->
-<!--
-          <li data-text="Instagram" data-color="#e4405f">
-            <a href="#" class="instagram">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-          </li>
--->
-<!--
-          <li data-text="Twitter" data-color="#0099ff">
-            <a href="#" class="twitter">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-          </li>
--->
-<!--
-          <li data-text="WhatsApp" data-color="#14dd14">
-            <a href="#" class="whatsapp">
-              <i class="fa fa-whatsapp" aria-hidden="true"></i>
-            </a>
-          </li>
-        </ul>
-      </section>
--->
-
       <div id="localize" class=sessao-header>
         <h1>Localização</h1>
     </div>
@@ -522,49 +468,7 @@
       <a href="#home" id="link-topo">
         <i class="fas fa-arrow-up"></i>
       </a>
-    </div>
-
-
- 
-<!--
-    <script src="tilt.js"></script>
-    <script>
-      let list = document.querySelectorAll('.box li');
-      let bg = document.querySelector('.socialMedia');
-
-      list.forEach(elements => {
-
-        // Background social color
-        elements.addEventListener('mouseenter', function (event) {
-          let color = event.target.getAttribute('data-color');
-          bg.style.backgroundColor = color;
-        })
-
-        // Background color default
-        elements.addEventListener('mouseleave', function (event) {
-          bg.style.backgroundColor = '#fff';
-        })
-
-      })
-
-      VanillaTilt.init(document.querySelectorAll(".box li a"), {
-        max: 30,
-        speed: 400,
-        glare: true,
-        "max-glare": 1
-
-      });
-    </script>
--->
-    <script type="text/javascript">
-    //<![CDATA[
-    $(window).on('load', function () { // makes sure the whole site is loaded 
-        $('#preloader .inner').fadeOut(); // will first fade out the loading animation 
-        $('#preloader').delay(200).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-        $('body').delay(200).css({'overflow': 'visible'});
-    })
-    //]]>
-    </script> 
+    </div>   
 
     <script src="script.js"></script>
     

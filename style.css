@@ -24,7 +24,7 @@ a {
 
 html {
     
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
 .hamburguer {
@@ -335,13 +335,13 @@ header {
 }
 
 .cardapio-header h3 {
-  font-family: var(--font-secundary);
+  font-family: var(--font-primary);
   font-size: 3rem;
   padding-left: 1rem;
 }
 
 .cardapio-text {
-  font-family: var(--font-secundary);
+  font-family: var(--font-action);
   margin-top: 2rem;
   font-size: 1.4rem;
 }
